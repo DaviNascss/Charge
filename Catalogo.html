@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Charge</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <script src="js/catalogo.js" defer></script>
+        <link rel="shortcut icon" type="imagex/png" href="img/icon.png">
+    </head>
+<body>
+
+    <nav id="container-catalogos">
+        <section>
+            <a id="voltar" href="index.html" >VOLTAR</a>  
+        </section>
+    </nav>
+
+    <h2 id="catalogo">CATALOGO</h2>
+
+    <section id="container_catalogo">
+
+        <table id="tabela_de_carros">
+            <tr class="linha">
+
+                <td class="divioes_td">
+                    <img src="img/imagens/Carro_catalogo.png" class="carro">
+                    <label class="nome_carro">Charger</label>
+                    <button class="btn_catalogo" id="teste" onclick="abrir()">Ver mais</button>
+                </td>
+                
+                <td class="divioes_td">
+                    <img src="img/imagens/Carro_catalogo.png" class="carro">
+                    <label class="nome_carro">Charger</label>
+                    <button class="btn_catalogo" id="teste" onclick="abrir()">Ver mais</button>
+                </td>
+            </tr>
+
+            <tr class="linha">
+
+                <td class="divioes_td">
+                    <img src="img/imagens/Carro_catalogo.png" class="carro">
+                    <label class="nome_carro">Charger</label>
+                    <button class="btn_catalogo" id="teste" onclick="abrir()">Ver mais</button>
+                </td>
+
+                <td class="divioes_td">
+                    <img src="img/imagens/Carro_catalogo.png" class="carro">
+                    <label class="nome_carro">Charger</label>
+                    <button class="btn_catalogo" id="teste" onclick="abrir()">Ver mais</button>
+                </td>
+            </tr>
+
+            <tr class="linha">
+
+                <td class="divioes_td">
+                    <img src="img/imagens/Carro_catalogo.png" class="carro">
+                    <label class="nome_carro">Charger</label>
+                    <button class="btn_catalogo" id="teste" onclick="abrir()">Ver mais</button>
+                </td>
+
+                <td class="divioes_td">
+                    <img src="img/imagens/Carro_catalogo.png" class="carro">
+                    <label class="nome_carro">Charger</label>
+                    <button class="btn_catalogo" id="teste" onclick="abrir()">Ver mais</button>
+                </td>
+            </tr>
+
+            <tr class="linha">
+
+                <td class="divioes_td">
+                    <img src="img/imagens/Carro_catalogo.png" class="carro">
+                    <label class="nome_carro">Charger</label>
+                    <button class="btn_catalogo" id="teste" onclick="abrir()">Ver mais</button>
+                </td>
+
+                <td class="divioes_td">
+                    <img src="img/imagens/Carro_catalogo.png" class="carro">
+                    <label class="nome_carro">Charger</label>
+                    <button class="btn_catalogo" id="teste" onclick="abrir()">Ver mais</button>
+                </td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section id="carro_escolhido" class="esconder">
+
+        <section id="container_escolhido">
+
+            <div id="fundo_escolhido"></div>
+
+            <img src="img/imagens/Carro_Preto.png" class="carro_a_ser_escolhido">
+            <label class="nome_escolhido">Charger</label>
+            
+            <table id="tbl_esp">
+                <tr id="tr_esp">
+                    <td id="td_esp">
+                        <img src="img/icon/gas-pump.png" id="bateria">
+                        <div class="especificacao" id="esp1">Sua bateria é duradoura, podendo roda 600km com 100% de bateria</div>
+                    </td>
+
+                    <td id="td_esp">
+                        <img src="img/icon/gauge.png" id="relogio">
+                        <div class="especificacao" id="esp2">Este carro é capaz de atingir até 300km/h, superando um Corsa</div>
+                    </td>
+
+                    <td id="td_esp">
+                        <img src="img/icon/car.png" id="carro">
+                        <div class="especificacao" id="esp3">Este carro além de seu tamanho incrível, é super confortável</div>
+                    </td>
+
+                    <td id="td_esp">
+                        <img src="img/icon/baby.png" id="bebe">
+                        <div class="especificacao" id="esp4">Além disso, nosso novo modelo é perfeito para grandes famílias </div>
+                    </td>
+                </tr>
+
+                <div id="fundo-compra" class="hide">
+
+                </div>
+
+                <div id="compra"  class="hide">
+                    <h3 id="T_compra">Ótima escolha</h3>
+                    <p id="p_compra">Para que seu veículo seja reservado, precisamos das seguintes informações</p>
+
+                    <div id="campo">
+                        <label id="I_nome">Nome:</label>
+                        <input type="text" id="nome" class="sty_input" name="nome">
+                        <label id="I_email">Email:</label>
+                        <input type="email" id="email" class="sty_input" name="email">
+                    </div>
+                    
+                    <button id="Fechar"  onclick="esconder()">Voltar</button>
+                    <button id="Reservar" onclick="enviar()">Confirmar</button>
+
+                </div>
+            </table>
+
+            <button id="btn_form" onclick="reserva()">Reservar</button>
+        </section>
+    </section>
+
+    <div></div>
+
+</body>
+</html>
